@@ -10,8 +10,7 @@ def clear():
 
 def main():
     clear()
-    print("Hello, World!")
-    return 0
+    print("Hello, Cruel World!")
 # end of main() definition.
 
 
@@ -21,4 +20,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print('\n\nprocessing aborted by user. exiting...')
     finally:
-        exit('\nThanks for flying GeoCur!')
+        exit(0)
