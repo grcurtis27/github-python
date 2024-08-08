@@ -4,7 +4,7 @@ import os
 
 def clear():
     """Clear the terminal screen (x-platform: Linux, Mac, Windows)."""
-    os.system('clear') if os.name == 'posix' else os.system('cls')
+    os.system('clear' if os.name == 'posix' else 'cls')
 # end of clear() definition.
 
 
